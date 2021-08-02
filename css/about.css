@@ -1,0 +1,86 @@
+*{
+    
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: /*linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),*/url(../img/victor.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+a.nav-link:hover {
+  color: gold !important;
+}
+
+.site-title {
+  font-family: 'Courgette', cursive;
+  font-size: 32px;
+  color: black;
+}
+
+.site-title:hover {
+  color: gold !important;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: white;
+}
+
+.dropdown-item {
+  color: black !important;
+  background-color: white;
+}
+
+.dropdown-item:hover {
+  background-color: dimgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main{
+  width: 26%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffff;
+  text-align:center;
+  padding: 50px;
+  position: absolute;
+  top:15%;
+  left:1%;
+
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    color: #ffff;
+  }
+  a:hover{
+    color: rgba(224, 143, 143, 0.781);
+  }

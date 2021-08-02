@@ -1,0 +1,245 @@
+body {
+    background-image: url("../img/joe.jpg");
+    width: 100px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20%;
+}
+
+a.nav-link:hover {
+    color: gold !important;
+}
+
+.site-title {
+    font-family: 'Courgette', cursive;
+    font-size: 32px;
+    color: white;
+}
+
+.site-title:hover {
+    color: gold !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+.dropdown-item {
+    color: black !important;
+    background-color: white;
+}
+
+.dropdown-item:hover {
+    background-color: dimgrey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.brmedium {
+    display: block;
+    margin-bottom: 1em;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #080808;
+}
+
+label, sub {
+    width: 240px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input[type="number"] {
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input[type="email"] {
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input[type="datetime-local"] {
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+#Purpose {
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input[name="usrnm"]:focus {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+input[name="breed"]:focus {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+input[name="age"]:focus {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+input[name="phone"]:focus {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+input[name="email"]:focus {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+input[name="Visitingdatetime"]:focus {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+#Purpose:focus {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+
+i {
+    position: static;
+    vertical-align: sub;
+    color: white;
+}
+
+option input:hover {
+    background-color: rgb(122, 187, 182);
+}
+
+input {
+    width: 210px;
+    border: 1px solid #61889A;
+    padding: 0;
+    margin: 0;
+    height: 26px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2%;
+    background-color: cornsilk;
+}
+
+select {
+    border-radius: 2%;
+    padding: 0%;
+    margin: 0%;
+    height: 22px;
+    width: 210px;
+    height: 26px;
+    border: 1px solid #61889A;
+    background-color: cornsilk;
+}
+
+option {
+    color: rgb(10, 10, 10);
+    background-color: rgb(227, 239, 240);
+}
+
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: #a02c28;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: #78e97b
+}
+
+.button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button2:hover {
+    background-color: #f75050
+}
+
+.button2:active {
+    background-color: #f5241d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+form {
+    align-content: center;
+}
+
+#bookingid {
+    display: inline-block;
+}

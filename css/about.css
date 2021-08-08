@@ -5,7 +5,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: /*linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),*/url("../img/victor.jpg") no-repeat ;
+    background: /*linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),*/url("../img/victor.jpg")no-repeat center;
     background-size:cover;
     background-position:center;
 
